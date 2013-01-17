@@ -1,5 +1,5 @@
 /***********************************************************************
-*Custom Coding Style*
+                    *Custom Coding Style*
 
 This xml is the coding style export I use for Eclipse CDT. To import,
 go to Preferences -> C/C++ -> Coding Style -> Formatter -> Import.
