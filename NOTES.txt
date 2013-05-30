@@ -1,0 +1,21 @@
+Remember these points when following the coding style:
+
+1. The reason I did not state anything about gotos is because they should not be used, ever. Using them is considered of poor programming practices and they can be avoided by using a few lines of code instead.
+
+2. Labels are usually used with gotos, so read the above comment.
+
+3. Using templates isn't preferred, but you may use them if you wish.
+
+4. When naming fuctions and variables, please use camelCase instead of naming_with_underscores. Although when using QtCreator for GUIs, signals may be names in a similar manner to on_pushButton_clicked().
+
+5. Naming a file should be similar to filename.cpp, and a corresponding header would be called filename.h
+
+6. Commenting syntax is up to you, although be consistent. For long comments, I prefer to use /* */ on a newline. Extremely short comments will usually be on the same line as the code it is "commenting" and is similar to "// Clear window."
+
+7. Every class should have a comment along with it, although the mainwindow class can be considered an exception. Please comment it if you added a function to it.
+
+8. Tabs are 4 spaces. Always.
+
+9. Return values do not usually have parentheses around them, but if the values are made up of an expression, add parentheses.
+
+10. Whitespace - a single blank vertical line separeates fuctions.
